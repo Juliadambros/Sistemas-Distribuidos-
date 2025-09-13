@@ -1,6 +1,6 @@
 import socket
 
-HOST = '127.0.0.1'  # IP do servidor (trocar quando rodar em máquinas diferentes)
+HOST = '127.0.0.1'  # IP do servidor
 PORT = 5001
 
 def main():
