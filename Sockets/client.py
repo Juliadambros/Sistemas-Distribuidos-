@@ -1,7 +1,7 @@
 import socket
 
-HOST = '127.0.0.1'  # IP do servidor
-PORT = 5001
+HOST = '172.31.67.49'  # IP do servidor
+PORT = 7000
 
 def main():
     #socket do cliente

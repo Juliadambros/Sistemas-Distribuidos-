@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service Calculadora {
+  rpc Somar (Numeros) returns (Resultado);
+  rpc Subtrair (Numeros) returns (Resultado);
+  rpc Multiplicar (Numeros) returns (Resultado);
+  rpc Dividir (Numeros) returns (Resultado);
+}
+
+message Numeros {
+  double a = 1;
+  double b = 2;
+}
+
+message Resultado {
+  double valor = 1;
+}

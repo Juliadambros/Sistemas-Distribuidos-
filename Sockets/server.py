@@ -3,7 +3,7 @@ import threading
 import json
 
 HOST = '0.0.0.0' # aceitar conexões de qualquer IP, para quando rodar em máquinas diferentes 
-PORT = 5001
+PORT = 7000
 ARQUIVO = "cadastros.json"
 
 cadastros = []  
